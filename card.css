@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --heading1:20px;
+    --heading2:22px;
+    --heading3:25px;
+    --heading4:30px;
+    --heading5:35px;
+    --heading6:40px;
+    --heading7:45px;
+    --background1:black;
+    --background2:#4d4949;
+    --background3:rgb(222, 245, 218);
+    --background4:rgb(41, 38, 38);
+    --background5:rgb(166, 171, 174);
+    --background6: rgb(70, 91, 209);
+    --background7:#100f0fc9 ;
+    --color1:red;
+    --color2:white;
+    --color3:green;
+
+}
+
+body {
+    display: flex;
+}
+
+
+.contaner3{
+    margin-left: 0vw;
+    width: 109vw;
+    height: auto;
+    background: var(--background2);
+}
+
+
+#maininfo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 84%;
+    justify-content: space-around;
+    margin-top: -3px;
+    margin-left: 30px;
+}
+
+
+.card1{
+    
+    height: 20vw;
+    width: 30vw;
+    background: var(--background7);
+    border-radius: 30px;
+    margin: 11px;
+    padding: 1px;
+}
+
+.card2{
+    
+    height: 32vw;
+    width: 30vw;
+    background: var(--background7);
+    border-radius: 30px;
+    margin: 11px;
+    padding: 1px;
+}
+
+
+
+
+
+
+.card1 .underrev  /* use by card 1 */
+{
+   margin: 20px;
+   margin-left: 28px;
+   height: 20px;
+   width: 100px;
+   background-color: rgb(202, 30, 93);
+   border-radius: 50px;
+   text-align: center;
+}
+
+.card2 .underrev  /* use by card 2 */
+{
+    margin: 20px;
+    margin-left: 27px;
+    height: 24px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    text-align: center;
+}
+.ass          /* use by card 2 */
+{
+    color: #4d4949;
+    margin-left: 20px;
+}
+.dev   /* use by card 2 */
+{
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+ .reqgat      /*use by all three cards */
+{
+   margin:25px;
+   margin-left: 95px;
+   height: 20px;
+   width: 200px;
+   background-color: rgb(246, 241, 147);
+   
+   text-align: center;
+}
+.infodetails /*use by all three cards */
+
+{
+    color: var(--background3);
+    text-align: left;
+    margin-top:-1.2vw;
+    margin-left: 20px;
+    font-size: var(--heading6);
+    
+}
+.siz  /*use by all three cards */
+{
+    font-size: large;
+}
+
+.cirlogo
+{
+    display: inline-flex;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.circless
+{
+    height:20px;
+    width:20px;
+    background-color: rgb(255, 255, 255);
+    border: #4d4949;
+    border: 10cm;
+    border-radius: 50px;
+    
+   
+}
+
+
+
+
+
